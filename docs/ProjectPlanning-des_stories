@@ -1,0 +1,53 @@
+a) Project Description
+
+Project title
+Recreational App (RecApp)
+
+
+Project description
+Healthy choice making for people's free time (for one day).
+
+Target audience
+All people need to make healthy free time choice.
+
+Team members
+Prathap Siva, Sheng Chiu
+
+
+b) User Stories
+
+A web app that helps groups of friends to vote on a preferred choice (using ranked voting), for example: "What movie should we see next Friday?".
+
+Requirements:
+
+* a user create a recreation with multiple choices
+ -each choice have 
+  --a title
+  --optional description
+ -the creator must enter an email  //name?
+
+* when (a recreation is finished being created) 
+ -the user is given a link: 
+  -- admin_link?
+  -- choices_link
+ -the links are sent to the creator via email (using SendGrid)
+
+* when (a user visits the recreation he created thruough the submission_link) 
+  -see a list of the choices for that poll 
+   --they enter their name if required
+
+* the user
+  -choose the choice(s) and 
+  -then submits the poll
+
+* each time a submission is received, 
+  -the creator is notified with an email 
+   which includes 
+  --a link to the results (choices_link)
+
+* the results are ranked using 
+    the Borda Count method: https://en.wikipedia.org/wiki/Borda_count
+
+note: 
+1. The only way to access the polls or see the results is via administrative links
+2. This app does not follow the typical user authentication process: voters don't need to register or log in.
