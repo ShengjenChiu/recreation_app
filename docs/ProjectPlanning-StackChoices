@@ -3,7 +3,4 @@ What are the technologies you’re going to use to develop for your app. You nee
 
 Front-End: React, node sass, 
 Back-End: Express, websocket, SendGrid
-Database: sql, postgre
-
-
-Deliverable: Stack choices document
+Database: psql, postgre

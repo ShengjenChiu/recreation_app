@@ -20,25 +20,27 @@ A web app that helps groups of friends to vote on a preferred choice (using rank
 
 Requirements:
 
-* a user create a recreation with multiple choices
- -each choice have 
+* a user select the recreation with multiple choices
+ -each recreation choice have 
   --a title
-  --optional description
- -the creator must enter an email  //name?
+  --description
+ <!-- -the creator must enter an email and a name -->
 
-* when (a recreation is finished being created) 
+<!-- * when (a recreation is finished being created) 
  -the user is given a link: 
   -- admin_link?
   -- choices_link
- -the links are sent to the creator via email (using SendGrid)
+ -the links are sent to the creator via email/chat room (using SendGrid/websocket) -->
 
 * when (a user visits the recreation he created thruough the submission_link) 
-  -see a list of the choices for that poll 
+  -see a list of the choices for that recreation 
    --they enter their name if required
+
+* date: google calender/schedule: one day, today
 
 * the user
   -choose the choice(s) and 
-  -then submits the poll
+  -then submits the chosed recreation
 
 * each time a submission is received, 
   -the creator is notified with an email 
