@@ -11,7 +11,8 @@ Target audience
 All people need to make healthy free time choice.
 
 Team members
-Prathap Siva, Sheng Chiu
+Prathap Siva, prathap.sims@gmail.com
+Sheng Chiu, sheng.chiu@shaw.ca
 
 
 b) User Stories
@@ -24,13 +25,6 @@ Requirements:
  -each recreation choice have 
   --a title
   --description
- <!-- -the creator must enter an email and a name -->
-
-<!-- * when (a recreation is finished being created) 
- -the user is given a link: 
-  -- admin_link?
-  -- choices_link
- -the links are sent to the creator via email/chat room (using SendGrid/websocket) -->
 
 * when (a user visits the recreation he created thruough the submission_link) 
   -see a list of the choices for that recreation 
@@ -49,6 +43,9 @@ Requirements:
 
 * the results are ranked using 
     the Borda Count method: https://en.wikipedia.org/wiki/Borda_count
+
+
+
 
 note: 
 1. The only way to access the polls or see the results is via administrative links
