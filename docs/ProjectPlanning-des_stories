@@ -17,7 +17,7 @@ Sheng Chiu, sheng.chiu@shaw.ca
 
 b) User Stories
 
-A web app that helps groups of friends to vote on a preferred choice (using ranked voting), for example: "What movie should we see next Friday?".
+A web app that helps one person/groups of friends to ≈for example: "What movie should we see next Friday?".
 
 Requirements:
 
@@ -26,11 +26,24 @@ Requirements:
   --a title
   --description
 
-* when (a user visits the recreation he created thruough the submission_link) 
+* when (a user visits the recreation he created an activity) 
   -see a list of the choices for that recreation 
    --they enter their name if required
 
 * date: google calender/schedule: one day, today
+
+* to Park
+  - 
+  - camping:
+
+* Park
+  - family quality time on night or weekend
+    - picnic, biking
+
+* Restaruant
+
+* Movie theatre
+
 
 * the user
   -choose the choice(s) and 

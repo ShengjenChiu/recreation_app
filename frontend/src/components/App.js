@@ -1,6 +1,7 @@
 import React from "react";
 // import DayList from "./DayList";
 import "./App.css";
+import Navigation from './Navigation'
 // import Appointment from "./Appointment/index";
 // import { getAppointmentsForDay, getInterview, getInterviewersForDay } from "helpers/selectors";
 // import axios from "axios";
@@ -49,31 +50,48 @@ export default function App() {
   // }); 
 
   return (
-    <main className="layout">
-      {/* <section className="sidebar">
-        <img
-          className="sidebar--centered"
-          src="images/logo.png"
-          alt="Interview Scheduler"
-        />
-        <hr className="sidebar__separator sidebar--centered" />
-        <nav className="sidebar__menu">
-        <DayList
-          days={state.days}
-          value={state.day}
-          onChange={setDay}
-        />
-        </nav>
-        <img
-          className="sidebar__lhl sidebar--centered"
-          src="images/lhl.png"
-          alt="Lighthouse Labs"
-        />
-      </section> */}
-      {/* <section className="schedule">
-        {schedule}
-        <Appointment key="last" time="5pm" />
-      </section> */}
-    </main>
+    <div>
+
+      <main className="layout">
+
+        <Navigation />
+        <section className="sidebar" style={{backgroundImage: `url("images/montreal-restaurant.jpg")`}}>
+
+          {/* <img
+            className="sidebar--centered"
+            // src="images/logo.png"
+            // alt="Interview Scheduler"
+          />
+
+          <hr className="sidebar__separator sidebar--centered" /> */}
+
+          <nav className="sidebar__menu">
+          {/* <DayList
+            days={state.days}
+            value={state.day}
+            onChange={setDay}
+          /> */}
+          </nav>
+
+          {/* <img
+            className="sidebar__lhl sidebar--centered"
+            src="images/montreal-restaurant.jpg"
+            alt="montreal-restaurant"
+          /> */}
+
+          {/* <button></button>
+          <button></button>
+          <button></button> */}
+          
+        </section>
+
+        <section className="schedule">
+          {/* {schedule}
+          <Appointment key="last" time="5pm" /> */}
+        </section>
+
+      </main>
+    </div>
+
   );
 }

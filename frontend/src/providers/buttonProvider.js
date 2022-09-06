@@ -1,18 +1,23 @@
-import { useState, useEffect } from "react";
+import { useState, createContext } from "react";
 import axios from "axios";
+// import { Wrapper, Status } from "@googlemaps/react-wrapper";
 
-//function of the cumston hook useApplicationData
-export default function useApplicationData() {
-  const [state, setState] = useState({
+//Create a context
+export const buttonContext = createContext(); 
+
+//Create a component wrapper for the context Provider 
+export default function buttonProvider(props) {
+  //the share state object
+  const [button, setButton] = useState({
     day: "Monday",
     days: [],
     appointments: {},
     interviewers: {}
   });
   
-  console.log('----------');
-  console.log('testo');
-  console.log('----------');
+  // console.log('----------');
+  // console.log('testo');
+  // console.log('----------');
 
   //To update the day state and retainning the state for days and appointments and 
   //to create new objects to be called to update the state with new day
