@@ -47,13 +47,13 @@ npm run storybook
 
 ## Final Product
 
-!["Screenshot of the appointment form of the interviewSchedulerJune"](https://github.com/ShengjenChiu/interviewSchedulerJune/blob/master/docs/appointment-form.png)
+!["Screenshot of "]()
 
 
-!["Screenshot of creating an new interview in the interviewSchedulerJune"](https://github.com/ShengjenChiu/interviewSchedulerJune/blob/master/docs/createNewInterviews.png)
+!["Screenshot of "]()
 
 
-!["Screenshot of editing an new interview in the interviewSchedulerJune"](https://github.com/ShengjenChiu/interviewSchedulerJune/blob/master/docs/editAnInterview.png.png)
+!["Screenshot of "]()
 
 
-!["Screenshot of deleting an interview in the interviewSchedulerJune"](https://github.com/ShengjenChiu/interviewSchedulerJune/blob/master/docs/deletingAnInterview.png)
+!["Screenshot of "]()
